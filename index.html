@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Site Is Currently Offline</title>
+    <title>Open Source IT Solutions - Business Update</title>
     <style>
         /* --- Base Styles --- */
         body {
@@ -14,15 +14,15 @@
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            box-sizing: border-box; /* Ensures padding doesn't cause overflow */
+            box-sizing: border-box; 
             background-color: #f8f9fa;
             color: #343a40;
-            text-align: center; /* 'center' is the correct CSS spelling */
+            text-align: center; 
         }
 
         /* --- Container --- */
         .container {
-            max-width: 600px;
+            max-width: 650px;
             width: 100%;
             padding: 40px;
             background-color: #ffffff;
@@ -33,18 +33,18 @@
 
         /* --- Typography --- */
         h1 {
-            font-size: 2.5em; /* Responsive font size */
-            color: #dc3545; /* 'color' is the correct CSS spelling */
+            font-size: 2.2em; 
+            color: #2c3e50; /* Changed to a professional dark grey/blue instead of red */
             margin-top: 0;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
             font-weight: 700;
         }
 
         p {
-            font-size: 1.15em;
+            font-size: 1.1em;
             line-height: 1.6;
             color: #555;
-            margin-bottom: 25px;
+            margin-bottom: 20px;
         }
 
         .site-name {
@@ -53,28 +53,44 @@
         }
         
         .contact-info {
-            font-size: 1em;
-            line-height: 1.5;
+            font-size: 1.05em;
+            line-height: 1.6;
             color: #333;
-            margin-top: 30px;
-            margin-bottom: 30px;
-            word-break: break-word; /* Prevents long email from overflowing */
+            margin-top: 35px;
+            margin-bottom: 10px;
+            padding: 20px;
+            background-color: #f1f3f5; /* Light grey box to make the contact info pop */
+            border-radius: 8px;
+            word-break: break-word; 
         }
         
         .contact-info a {
             color: #007bff;
             text-decoration: none;
+            font-weight: 500;
         }
         
         .contact-info a:hover {
             text-decoration: underline;
         }
-        
-        .footer-text {
-            font-size: 0.9em;
-            color: #888;
-            margin-top: 30px;
-            margin-bottom: 0;
+
+        /* --- Custom Button for Blog --- */
+        .blog-button {
+            display: inline-block;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            padding: 12px 24px;
+            background-color: #007bff;
+            color: #ffffff !important;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 1.1em;
+            transition: background-color 0.2s;
+        }
+
+        .blog-button:hover {
+            background-color: #0056b3;
         }
 
         /* --- Mobile Responsive --- */
@@ -88,7 +104,7 @@
             }
 
             h1 {
-                font-size: 2em;
+                font-size: 1.8em;
             }
 
             p {
@@ -99,20 +115,20 @@
 </head>
 <body>
     <div class="container">
-        <h1>Sorry! Our Site Is Currently Offline</h1>
-        <p>We apologise, but <span class="site-name">www.opensourceitsolutions.co.uk</span> is temporarily unavailable.</p>
-        <p>This may be due to planned maintenance or a server issue. Our team has likely been notified, but please feel free to get in touch if the problem persists.</p>
+        <h1>Business Update</h1>
+        <p>After a great run, <span class="site-name">Open Source IT Solutions</span> has officially closed down as a commercial limited company. We want to extend a massive thank you to all our past customers for your business and support.</p>
+        
+        <p>Moving forward, OSIS will continue to exist primarily as a technology blog where we document homelab projects, self-hosting guides, and open-source software.</p>
+        
+        <a href="https://blog.opensourceitsolutions.co.uk" class="blog-button">Visit the OSIS Blog</a>
         
         <div class="contact-info">
-            You can contact us at:<br>
+            <strong>Still need help?</strong><br><br>
+            I am still available on a freelance, sole-trader basis for select IT consultancy projects and PC migrations (especially Windows to Linux distributions).<br><br>
+            If you are a past customer or have any queries for the future, please continue to reach out:<br><br>
             <a href="mailto:info@opensourceitsolutions.co.uk">info@opensourceitsolutions.co.uk</a><br>
-            or 01455 377590
+            01455 377590
         </div>
-        
-        <p class="footer-text">We apologise for the inconvenience.</p>
     </div>
 </body>
-
 </html>
-
-
